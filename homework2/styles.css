@@ -57,11 +57,28 @@ a:hover, a:active {
 .articles-container {
     border: 1px solid #262626;
     border-radius: 8px;
+    background-color: #cba4a4;
     text-align: justify;
 }
 
-.articles-container p {
+.article-paragraph {
     padding: 0 10px;
+}
+
+.elem1 {
+    font-weight: bold;
+}
+
+.elem2 {
+    font-style: italic;
+}
+
+.elem3, .elem4 {
+    text-decoration: underline;
+}
+
+.elem4 {
+    font-weight: bold;
 }
 
 .article {
