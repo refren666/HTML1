@@ -1,0 +1,134 @@
+body {
+    background: #f4f4f4;
+    font-size: 18px;
+    font-family: Verdana, Helvetica, sans-serif;
+}
+
+.nav-bar {
+    display: flex;
+    background: #af1414;
+    font-weight: bold;
+}
+
+.nav-bar > div {
+    padding: 10px 20px;
+}
+
+.nav-bar > div:nth-child(3) {
+    margin-left: auto;
+}
+
+.nav-link:hover{
+    background-color: #d91c1c;
+    cursor: pointer;
+}
+
+.nav-link > a {
+    text-decoration: none;
+    color: #f4f4f4;
+}
+
+.intro{
+    text-align: center;
+    font-size: 50px;
+}
+
+.top-3 {
+    text-align: center;
+}
+
+.img-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.read-more:link, .read-more:visited {
+    background-color: #f4f4f4;
+    color: black;
+    border: 2px solid #af1414;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.read-more:hover, .read-more:active {
+    color: #f4f4f4;
+    background-color: #af1414;
+    text-decoration: underline;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+ul li {
+    padding: 10px 5px;
+}
+
+.categories-link:link, .categories-link:visited {
+    color: #af1414;
+    text-decoration: none;
+}
+
+.categories-link:hover, .categories-link:active {
+    text-decoration: underline;
+    color: red;
+}
+
+.articles-container {
+    border: 1px solid #262626;
+    border-radius: 8px;
+    background-color: #cba4a4;
+    text-align: justify;
+}
+
+.article-paragraph {
+    padding: 0 10px;
+}
+
+.elem1 {
+    font-weight: bold;
+}
+
+.elem2 {
+    font-style: italic;
+}
+
+.elem3, .elem4 {
+    text-decoration: underline;
+}
+
+.elem4 {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.article {
+    text-align: center;
+}
+
+.ref {
+    font-style: italic;
+}
+
+.footer-wrapper {
+    background-color: #af1414;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-wrapper a {
+    color: #262626;
+    text-decoration: none;
+}
+
+.footer-wrapper a:hover {
+    color: #f4f4f4;
+}
+
+.start-nav {
+    text-align: center;
+}
