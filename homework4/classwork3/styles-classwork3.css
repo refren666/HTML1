@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    vertical-align: middle;
+    color: black;
+    gap: 15px;
+    font-size: 1.5rem;
+}
+
+.color1 {
+    background-color: #3d8ad5;
+}
+
+.color2 {
+    background-color: #3d3d8d;
+}
+
+.home, .about {
+    height: 400px;
+    line-height: 400px;
+    flex-grow: 1;
+}
+
+.kabobs {
+    height: 200px;
+    line-height: 200px;
+    flex-basis: 100%;
+}
+
+.block, .cube, .square {
+    height: 180px;
+    line-height: 180px;
+    flex-grow: 1;
+}
+
+
+
