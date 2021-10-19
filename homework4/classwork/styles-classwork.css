@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    font-size: 1.5rem;
+    gap: 5px;
+}
+
+.container > div {
+    background-color: #666;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 5;
+    gap: 5px;
+}
+
+.second {
+    flex-basis: 100%;
+}
+
+.third, .fourth, .fifth {
+    flex-grow: 1;
+}
+
+.first, .second, .third, .fourth, .fifth {
+    height: 150px;
+    line-height: 150px;
+}
+
+.first {
+    flex-basis: 100%;
+}
+
+.sixth {
+    flex-grow: 1;
+    line-height: 305px;
+}
