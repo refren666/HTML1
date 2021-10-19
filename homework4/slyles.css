@@ -1,0 +1,164 @@
+/*                 TASK1                  */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 2rem;
+}
+
+.target {
+    background-color: #444444;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.first {
+    flex-basis: 100%;
+    height: 150px;
+    line-height: 150px;
+}
+.second, .third {
+    height: 430px;
+    line-height: 430px;
+}
+
+.second {
+    flex-grow: 4;
+}
+
+.third {
+    flex-grow: 1;
+}
+
+/************************************************/
+/*                 TASK2                  */
+
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.5rem;
+}
+
+.posts-container {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 5;
+}
+
+.item {
+    text-align: center;
+    vertical-align: middle;
+    margin: 5px;
+}
+
+.header, .footer {
+    flex-basis: 100%;
+    background-color: teal;
+    height: 100px;
+    line-height: 100px;
+}
+
+.menu {
+    flex-grow: 1;
+    background-color: cornflowerblue;
+    height: 250px;
+    line-height: 250px;
+}
+
+.post {
+    background-color: aquamarine;
+    height: 120px;
+    line-height: 120px;
+}
+
+/************************************************/
+/*                 TASK3                  */
+
+.container3 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 1.5rem;
+}
+
+.widgets, .contact {
+    flex-basis: 100%;
+    background-color: cornflowerblue;
+}
+
+.widgets, .object {
+    height: 200px;
+    line-height: 200px;
+}
+
+.object {
+    font-size: 1.2rem;
+}
+
+.contact {
+    height: 300px;
+    line-height: 300px;
+}
+
+
+.object {
+    background-color: #3d3d8d;
+    flex-grow: 1;
+}
+
+/************************************************/
+/*                 TASK4                  */
+
+.container4 {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 1.5rem;
+    gap: 1px;
+    color: white;
+}
+
+.heading, .nav, .footer2 {
+    flex-basis: 100%;
+    height: 80px;
+    line-height: 80px;
+}
+
+.main-content , .aside {
+    height: 400px;
+    line-height: 400px;
+}
+
+.main-content {
+    flex-grow: 4;
+}
+
+.aside {
+    flex-grow: 1;
+}
+
+.heading {
+    background-color: #0c65a6;
+}
+
+.nav {
+    background-color: #274d72;
+}
+
+.main-content {
+    background-color: #3d8ad5;
+}
+
+.aside {
+    background-color: mediumpurple;
+}
+
+.footer2 {
+    background-color: #6aade0;
+}
+
