@@ -1,0 +1,77 @@
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 1.5rem;
+    color: white;
+    gap: 10px;
+}
+
+.left-wrapper, .right_wrapper {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 0;
+    gap: 10px;
+}
+
+.extra-wrapper {
+    display: flex;
+    flex-basis: 100%;
+    height: 150px;
+    line-height: 150px;
+    gap: 10px;
+}
+
+.header, .footer {
+    height: 100px;
+    line-height: 100px;
+    flex-basis: 100%;
+}
+
+.header {
+    background-color: skyblue;
+}
+
+.hero {
+    background-color: #999;
+    height: 300px;
+    line-height: 300px;
+}
+
+.sidebar {
+    background-color: yellowgreen;
+    height: 400px;
+    line-height: 400px
+}
+
+.main {
+    background-color: yellow;
+    height: 550px;
+    line-height: 550px;
+}
+
+.extra {
+    background-color: #666;
+    height: 150px;
+    line-height: 150px;
+}
+
+.images. .posts {
+    height: 120px;
+    line-height: 120px;
+}
+
+.images {
+    background-color: forestgreen;
+    flex: 4 0 0;
+}
+
+.posts {
+    background-color: lightpink;
+    flex: 1 0 0;
+}
+
+.footer {
+    background-color: orange;
+}
