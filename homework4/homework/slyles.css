@@ -1,21 +1,45 @@
+/* Basic parameters */
+.flex {
+    display: flex;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.mn5 {
+    margin: 5px;
+}
+
+.fx-basis100 {
+    flex-basis: 100%;
+}
+
+.font1n5 {
+    font-size: 1.5rem;
+}
+
+.txt-center {
+    text-align: center;
+}
+
+.vertical-mid {
+    vertical-align: middle;
+}
+
+
 /*                 TASK1                  */
 .container {
-    display: flex;
-    flex-wrap: wrap;
     font-size: 2rem;
 }
 
 .target {
     background-color: #444444;
     color: white;
-    text-align: center;
-    vertical-align: middle;
-    margin: 5px;
     border-radius: 10px;
 }
 
 .first {
-    flex-basis: 100%;
     height: 150px;
     line-height: 150px;
 }
@@ -35,28 +59,20 @@
 /************************************************/
 /*                 TASK2                  */
 
-.container2 {
-    display: flex;
-    flex-wrap: wrap;
-    font-size: 1.5rem;
-}
-
 .posts-container {
-    display: flex;
     flex-direction: column;
     flex-grow: 5;
 }
 
-.item {
-    text-align: center;
-    vertical-align: middle;
-    margin: 5px;
+.bg-teal {
+    background-color: teal;
 }
 
-.header, .footer {
-    flex-basis: 100%;
-    background-color: teal;
+.h8-100 {
     height: 100px;
+}
+
+.line-100 {
     line-height: 100px;
 }
 
@@ -77,26 +93,19 @@
 /*                 TASK3                  */
 
 .container3 {
-    display: flex;
-    flex-wrap: wrap;
     gap: 15px;
-    text-align: center;
-    vertical-align: middle;
-    font-size: 1.5rem;
 }
 
-.widgets, .contact {
-    flex-basis: 100%;
-    background-color: cornflowerblue;
+.bg-skyblue {
+    background-color: skyblue;
 }
 
-.widgets, .object {
+.h8-200 {
     height: 200px;
-    line-height: 200px;
 }
 
-.object {
-    font-size: 1.2rem;
+.line-200 {
+    line-height: 200px;
 }
 
 .contact {
@@ -104,8 +113,8 @@
     line-height: 300px;
 }
 
-
 .object {
+    font-size: 1.2rem;
     background-color: #3d3d8d;
     flex-grow: 1;
 }
@@ -114,23 +123,23 @@
 /*                 TASK4                  */
 
 .container4 {
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center;
-    vertical-align: middle;
-    font-size: 1.5rem;
     gap: 1px;
     color: white;
 }
 
-.heading, .nav, .footer2 {
-    flex-basis: 100%;
+.h8-80 {
     height: 80px;
+}
+
+.line-80 {
     line-height: 80px;
 }
 
-.main-content , .aside {
+.h8-400 {
     height: 400px;
+}
+
+.line-400 {
     line-height: 400px;
 }
 
