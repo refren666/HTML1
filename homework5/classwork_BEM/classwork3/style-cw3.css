@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    gap: 15px;
+    font-size: 1.5rem;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.bg_blue {
+    background-color: #3d8ad5;
+}
+
+.bg_purple {
+    background-color: #3d3d8d;
+}
+
+.grow1 {
+    flex-grow: 1;
+}
+
+.kabobs {
+    height: 200px;
+    line-height: 200px;
+    flex-basis: 100%;
+}
+
+.height_180 {
+    height: 180px;
+    line-height: 180px;
+}
+
+.height_500 {
+    height: 500px;
+    line-height: 500px;
+}
+
+
+
