@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    font-size: 1.5rem;
+    gap: 5px;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.grow1 {
+    flex-grow: 1;
+}
+
+.bg-col_grey {
+    background-color: #666;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 5;
+    gap: 5px;
+}
+
+.width-full {
+    flex-basis: 100%;
+}
+
+.height_150 {
+    height: 150px;
+    line-height: 150px;
+}
+
+.sixth {
+    flex-grow: 1;
+    line-height: 305px;
+}
