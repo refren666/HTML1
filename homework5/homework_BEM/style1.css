@@ -61,7 +61,7 @@
     background-color: lightpink;
 }
 
-.posts-wrapper {
+.posts__wrapper {
     display: flex;
     flex-direction: column;
     flex-grow: 3;
@@ -98,15 +98,15 @@
     height: 200px;
 }
 
-.widgets-container {
+.widgets__container {
     display: flex;
 }
 
-.widget-item1 {
+.widget__item1 {
     margin-right: 20px;
 }
 
-.widget-item2 {
+.widget__item2 {
     margin-right: 20px;
 }
 
