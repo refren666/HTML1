@@ -4,6 +4,18 @@
     padding: 0;
 }
 
+.bg_aqua {
+    background-color: #63b7f6;
+}
+
+.bg_dark-blue {
+    background-color: #102B3E;
+}
+
+.bg_silver {
+    background-color: #d5d5d5;
+}
+
 .container {
     display: flex;
     flex-wrap: wrap;
@@ -97,23 +109,26 @@
     align-items: center;
     flex-basis: 100%;
     height: 170px;
+    margin-top: 20px;
+}
+
+.box__item__container > p {
+    text-align: center;
+    padding-top: 10px;
 }
 
 .box__item {
     border-radius: 20px;
+    justify-self: center;
     height: 150px;
     width: 150px;
     background-color: #102B3E;
 }
 
-.container__description {
+.gallery__container {
     display: flex;
     justify-content: space-evenly;
-    flex-basis: 100%;
-    height: 70px;
-}
-
-.photos__container {
+    align-items: center;
     margin-top: 25px;
     flex-basis: 100%;
     height: 350px;
@@ -121,11 +136,26 @@
     color: #d5d5d5;
 }
 
-.photo__circles {
+.photo__box {
     display: flex;
-    justify-content: space-evenly;
-    align-items: flex-end;
-    height: 250px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 300px;
+}
+
+.description__item1 {
+    padding-top: 10px;
+}
+
+.photo__box > p {
+    line-height: 20px;
+}
+
+.photo__box:hover {
+    cursor: pointer;
+    border: 2px solid #63b7f6;
 }
 
 .photo__item {
@@ -133,19 +163,6 @@
     height: 150px;
     width: 150px;
     border-radius: 50%;
-}
-
-.photo__description {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    height: 30px;
-}
-
-.photo__description2 {
-    display: flex;
-    justify-content: space-evenly;
-    height: 70px;
 }
 
 .widgets__title {
@@ -159,7 +176,7 @@
 .widgets__container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     height: 800px;
     flex-basis: 100%;
@@ -170,7 +187,7 @@
     border: 2px solid #63b7f6;
     border-radius: 20px;
     height: 360px;
-    flex-basis: 260px;
+    flex-basis: 270px;
 }
 
 .widget__menu__wrapper {
@@ -237,7 +254,7 @@
     display: flex;
     height: 300px;
     flex-basis: 100%;
-    margin: 40px 80px;
+    margin: 40px 50px;
 }
 
 .about-us__first-block {
