@@ -1,0 +1,286 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg_dark-blue {
+    background-color: #102b3e;
+}
+
+.bg_purple {
+    background-color: #6964e2;
+}
+
+.bg_silver {
+    background-color: #ced8e1;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+}
+
+.nav-bar {
+    display: flex;
+    height: 100px;
+    padding: 0 100px;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: 100%;
+    position: relative;
+}
+
+.logo-icon {
+    width: 120px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.search-icon {
+    width: 30px;
+    height: 5px;
+}
+
+.hamburger-menu-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 175px;
+}
+
+.hamburger-menu-icon span {
+    display: inline-block;
+    width: 80%;
+    height: 6px;
+    background-color: #6964e2;
+    position: relative;
+}
+
+.hamburger-menu-icon span::before,
+.hamburger-menu-icon span::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #6964e2;
+    position: absolute;
+}
+
+.hamburger-menu-icon span::before {
+    top: -12px;
+}
+
+.hamburger-menu-icon span::after {
+    bottom: -12px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    height: 600px;
+    padding: 0 100px;
+    align-items: center;
+    justify-content: center;
+    row-gap: 25px;
+    color: #6964e2;
+    text-align: center;
+}
+
+.header__description {
+    width: 70%;
+    line-height: 25px;
+}
+
+.header__button {
+    height: 40px;
+    width: 150px;
+    border-radius: 20px;
+}
+
+.floating__menu {
+    display: flex;
+    flex-basis: 100%;
+    justify-content: center;
+    position: relative;
+}
+
+.floating__menu__block {
+    height: 200px;
+    width: 200px;
+    border-radius: 15px;
+    position: absolute;
+    top: -100px;
+}
+
+.floating__menu__block::before,
+.floating__menu__block::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #6964e2;
+    border-radius: 15px;
+    position: absolute;
+}
+
+.floating__menu__block::before {
+    left: -250px;
+}
+
+.floating__menu__block::after {
+    right: -250px;
+}
+
+.categories__title {
+    margin-top: 200px;
+    margin-bottom: 75px;
+    text-align: center;
+    width: 100%;
+    color: #102b3e;
+}
+
+.categories__menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-basis: 100%;
+    height: auto;
+    padding: 0 100px;
+    text-align: center;
+    color: #102b3e;
+    gap: 40px;
+}
+
+.categories__menu p {
+    padding-top: 10px;
+}
+
+.categories__item__container {
+    width: 20%;
+}
+
+.categories__item {
+    height: 200px;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.main__content__title {
+    text-align: center;
+    width: 100%;
+    color: #102b3e;
+    margin: 75px 0;
+}
+
+.main__content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-basis: 100%;
+    height: auto;
+    padding: 0 100px;
+    color: #102b3e;
+    row-gap: 50px;
+}
+
+.main__content h2,
+.main__content p {
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.content__block {
+    width: 46%;
+}
+
+.content__image {
+    width: 100%;
+    height: 200px;
+    border-radius: 15px;
+}
+
+.slide-bar__title {
+    text-align: center;
+    width: 100%;
+    color: #102b3e;
+    margin: 75px 0;
+}
+
+.slide-bar {
+    display: flex;
+    padding: 0 100px;
+    justify-content: space-between;
+    flex-basis: 100%;
+    height: auto;
+    align-items: center;
+}
+
+.arrow__left, .arrow__right {
+    width: 25px;
+    height: 25px;
+}
+
+.slide-bar__item {
+    flex-basis: 30%;
+    height: 150px;
+    border-radius: 15px;
+}
+
+.about-us {
+    display: flex;
+    padding: 0 100px;
+    margin: 75px 0;
+    height: auto;
+    column-gap: 25px;
+    flex-basis: 100%;
+    align-items: center;
+}
+
+.about-us__image {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.about-us__info {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 75%;
+    row-gap: 15px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    padding: 0 100px;
+    height: 150px;
+    align-items: center;
+}
+
+.soc-icon__wrapper, .license__wrapper {
+    display: flex;
+    width: 100%;
+    flex-basis: 50%;
+    align-items: center;
+    justify-content: center;
+    column-gap: 25px;
+}
+
+.soc-icon {
+    height: 50px;
+    width: 50px;
+    border-radius: 7px;
+    align-self: flex-end;
+}
+
+.license__info {
+    height: 5px;
+    width: 70px;
+}
