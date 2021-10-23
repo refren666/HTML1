@@ -175,9 +175,11 @@
 }
 
 .widget__menu {
+    display: flex;
+    flex-direction: column;
     border-radius: 20px;
     height: 360px;
-    flex-basis: 270px;
+    flex-basis: 32%;
 }
 
 .widget__menu__wrapper {
@@ -205,6 +207,7 @@
 }
 
 .article__description {
+    height: 80px;
     line-height: 20px;
 }
 
@@ -291,7 +294,7 @@
     border-radius: 15px;
 }
 
-.line {
+.footer__line {
     height: 3px;
     width: 500px;
 }
