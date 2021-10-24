@@ -27,6 +27,7 @@
     padding: 0 100px;
     height: 100px;
     flex-basis: 100%;
+    text-transform: uppercase;
 }
 
 .nav__logo__wrapper {
@@ -110,17 +111,34 @@
 
 .slide__menu {
     display: flex;
-    width: 90%;
-    column-gap: 20px;
+    width: 100%;
+    column-gap: 33px;
+}
+
+.mini__block{
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
 }
 
 .arrow__left,
-.arrow__right,
-.mini__block{
-    height: 55px;
-    border-radius: 10px;
-    width: 13%;
+.arrow__right {
+    width: 0;
+    height: 0;
 }
+
+.arrow__left {
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+    border-right: 25px solid #102b3e;
+}
+
+.arrow__right {
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+    border-left: 25px solid #102b3e;
+}
+
 
 .main__content__post  {
     display: flex;
