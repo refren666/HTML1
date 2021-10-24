@@ -1,0 +1,270 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg_dark-blue {
+    background-color: #102b3e;
+}
+
+.bg_purple {
+    background-color: #6964e2;
+}
+
+.bg_silver {
+    background-color: #ced8e1;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+}
+
+.nav__bar {
+    display: flex;
+    padding: 0 100px;
+    height: 100px;
+    flex-basis: 100%;
+}
+
+.nav__logo__wrapper {
+    display: flex;
+    width: 50%;
+    align-items: center;
+}
+
+.logo__icon {
+    width: 120px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.nav__menu {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+.nav__menu a {
+    text-decoration: none;
+    color: #6964e2;
+}
+
+.nav__top, .nav__bottom {
+    display: flex;
+    column-gap: 15px;
+}
+
+.nav__bottom {
+    font-size: 1.4rem;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 500px;
+    color: #6964e2;
+    padding: 0 100px;
+    row-gap: 30px;
+}
+
+.header__button {
+    height: 40px;
+    width: 150px;
+    border-radius: 20px;
+}
+
+.header > p {
+    width: 40%;
+    line-height: 25px;
+}
+
+.main__content {
+    display: flex;
+    flex-basis: 100%;
+    padding: 0 100px;
+    margin: 75px 0;
+    column-gap: 25px;
+    color: #102b3e;
+}
+
+.main__content__left, .main__content__right {
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+    width: 50%;
+}
+
+.main__content__image {
+    height: 240px;
+    width: 90%;
+    border-radius: 15px;
+    background-color: #6964e2;
+}
+
+.slide__menu {
+    display: flex;
+    width: 90%;
+    column-gap: 20px;
+}
+
+.arrow__left,
+.arrow__right,
+.mini__block{
+    height: 55px;
+    border-radius: 10px;
+    width: 13%;
+}
+
+.main__content__post  {
+    display: flex;
+    column-gap: 15px;
+}
+
+.post__image__wrapper {
+    width: 30%;
+}
+
+.post__info {
+    width: 70%;
+}
+
+.post__info > p {
+    padding-top: 10px;
+    height: 110px;
+}
+
+.post__image {
+    width: 100%;
+    height: 150px;
+    border-radius: 15px;
+}
+
+.post__buttons {
+    display: flex;
+    width: 100%;
+    column-gap: 5px;
+}
+
+.post__buttons > p:nth-child(3) {
+    margin-left: auto;
+}
+
+.gallery__title {
+    width: 100%;
+    text-align: center;
+    color: #102b3e;
+}
+
+.photo__gallery {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 100px;
+    margin: 75px 0;
+    row-gap: 15px;
+}
+
+.gallery__photos__top,
+.gallery__photos__bottom {
+    display: flex;
+    column-gap: 15px;
+}
+
+.big__gallery__photo,
+.big__gallery__photo {
+    height: 300px;
+}
+
+.big__gallery__photo {
+    flex-grow: 3;
+}
+
+.small__gallery__photo {
+    flex-grow: 2;
+}
+
+.about-us__title {
+    width: 100%;
+    text-align: center;
+    color: #102b3e;
+}
+
+.about-us {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 100px;
+    margin: 75px 0;
+    flex-basis: 100%;
+    text-align: center;
+    color: #6964e2;
+}
+
+.about-us__block {
+    display: flex;
+    flex-direction: column;
+    row-gap: 7px;
+}
+
+.about-us__image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.footer {
+    display: flex;
+    flex-basis: 100%;
+    padding: 0 100px;
+    margin-top: 75px;
+    color: #6964e2;
+    height: 200px;
+}
+
+.socials__container {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    justify-content: space-around;
+}
+
+.social__media__wrapper {
+    display: flex;
+    column-gap: 12px;
+}
+
+.social__media__icon {
+    height: 50px;
+    width: 50px;
+    border-radius: 12px;
+}
+
+.contact-info__wrapper {
+    display: flex;
+    column-gap: 10px;
+}
+
+.contact-info {
+    width: 75px;
+    height: 5px;
+}
+
+.footer__navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 60%;
+}
+
+.footer__navigation__block {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
