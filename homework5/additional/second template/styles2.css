@@ -16,6 +16,14 @@
     background-color: #ced8e1;
 }
 
+.text_purple {
+    color: #6964e2;
+}
+
+.text_dark-blue {
+    color: #102b3e;
+}
+
 .container {
     display: flex;
     flex-wrap: wrap;
@@ -70,7 +78,6 @@
     justify-content: center;
     width: 100%;
     height: 500px;
-    color: #6964e2;
     padding: 0 100px;
     row-gap: 30px;
 }
@@ -92,7 +99,6 @@
     padding: 0 100px;
     margin: 75px 0;
     column-gap: 25px;
-    color: #102b3e;
 }
 
 .main__content__left, .main__content__right {
@@ -106,7 +112,6 @@
     height: 240px;
     width: 90%;
     border-radius: 15px;
-    background-color: #6964e2;
 }
 
 .slide__menu {
@@ -177,7 +182,6 @@
 .gallery__title {
     width: 100%;
     text-align: center;
-    color: #102b3e;
 }
 
 .photo__gallery {
@@ -211,7 +215,6 @@
 .about-us__title {
     width: 100%;
     text-align: center;
-    color: #102b3e;
 }
 
 .about-us {
@@ -221,7 +224,6 @@
     margin: 75px 0;
     flex-basis: 100%;
     text-align: center;
-    color: #6964e2;
 }
 
 .about-us__block {
@@ -241,7 +243,6 @@
     flex-basis: 100%;
     padding: 0 100px;
     margin-top: 75px;
-    color: #6964e2;
     height: 200px;
 }
 

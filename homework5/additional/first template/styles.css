@@ -16,6 +16,14 @@
     background-color: #ced8e1;
 }
 
+.text_purple {
+    color: #6964e2;
+}
+
+.text_dark-blue {
+    color: #102b3e;
+}
+
 .container {
     display: flex;
     flex-wrap: wrap;
@@ -29,7 +37,7 @@
     justify-content: space-between;
     align-items: center;
     flex-basis: 100%;
-    position: relative;
+    column-gap: 25px;
 }
 
 .logo-icon {
@@ -41,7 +49,7 @@
 .search-icon {
     width: 50px;
     height: 50px;
-    margin-right: 75px;
+    margin-left: auto;
 }
 
 .hamburger-menu-icon {
@@ -50,8 +58,8 @@
     align-items: center;
     width: 50px;
     height: 50px;
-    position: absolute;
-    right: 100px;
+    position: relative;
+
 }
 
 .hamburger-menu-icon span {
@@ -89,7 +97,6 @@
     align-items: center;
     justify-content: center;
     row-gap: 25px;
-    color: #6964e2;
     text-align: center;
 }
 
@@ -143,7 +150,6 @@
     margin-bottom: 75px;
     text-align: center;
     width: 100%;
-    color: #102b3e;
 }
 
 .categories__menu {
@@ -154,7 +160,6 @@
     height: auto;
     padding: 0 100px;
     text-align: center;
-    color: #102b3e;
     gap: 40px;
 }
 
@@ -175,7 +180,6 @@
 .main__content__title {
     text-align: center;
     width: 100%;
-    color: #102b3e;
     margin: 75px 0;
 }
 
@@ -186,7 +190,6 @@
     flex-basis: 100%;
     height: auto;
     padding: 0 100px;
-    color: #102b3e;
     row-gap: 50px;
 }
 
@@ -209,7 +212,6 @@
 .slide-bar__title {
     text-align: center;
     width: 100%;
-    color: #102b3e;
     margin: 75px 0;
 }
 
