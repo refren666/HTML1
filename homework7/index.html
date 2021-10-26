@@ -14,35 +14,36 @@
     <link rel="stylesheet" href="css/media.css">
 </head>
 <body>
-
 <header class="header">
     <div class="header__top wrapper">
-        <div class="header__logo"><img src="image/LOGO.svg" alt="Logo"></div>
+        <div class="logo">
+            <img src="image/LOGO.svg" alt="Logo">
+        </div>
 
         <div class="header__menu">
-
-            <nav class="nav">
+            <div class="nav">
                 <div class="nav__item"><a href="#">ГЛАВНАЯ</a></div>
                 <div class="nav__item"><a href="#">МЕНЮ</a></div>
                 <div class="nav__item"><a href="#">О НАС</a></div>
                 <div class="nav__item"><a href="#">БРОНЬ</a></div>
-                <div class="nav__item">
-                    <a href="#"><img src="image/shopping-cart-solid.svg" alt="Shopping cart"></a>
+                <div class="nav__item"><a href="#"><img src="image/shopping-cart-solid.svg" alt="Shopping Cart"></a>
                 </div>
-            </nav>
-
-            <div class="header__contact">
-                <div class="header__phone">
-                    <img src="image/phone.png" alt="Phone"> +999-888-76-54
-                    <p>Свяжитесь с нами для бронирования</p>
-                </div>
-
-                <button class="header__button">ЗАКАЗ СТОЛИКА</button>
             </div>
+
+            <div class="contact__info">
+                <div>
+                    <img src="image/phone.png" alt="Phone"> +999-888-76-54
+                </div>
+                <p>Свяжитесь с нами для бронирования</p>
+            </div>
+
+            <button class="header__button">ЗАКАЗ СТОЛИКА</button>
 
         </div>
 
-        <div class="nav__hamburger__mobile"><span></span></div>
+        <div class="mobile__nav__menu">
+            <div class="menu__burger"></div>
+        </div>
     </div>
 
     <div class="header__main wrapper">
@@ -50,33 +51,38 @@
             <h2>Добро пожаловать в</h2>
             <h1>Наш ресторан</h1>
             <p>ДОМ ЛУЧШЕЙ ЕДЫ</p>
-            <button class="header__main__button">VIEW MENU</button>
+            <button class="header__button">VIEW MENU</button>
         </div>
     </div>
 </header>
 
+
 <div class="intro wrapper">
-    <div class="intro__block block1">
-        <div>
-            <img src="image/mask.png" alt="mask">
+    <div class="intro__block">
+        <div class="block__image">
+            <img src="image/mask.png" alt="Mask">
         </div>
         <h3>Магическая <span>Атмосфера</span></h3>
         <p>В нашем заведении царит магическая атмосфера наполненная вкусными ароматами</p>
     </div>
+
     <div class="intro__block block2">
-        <div>
-            <img src="image/mask.png" alt="mask">
+        <div class="block__image">
+            <img src="image/mask.png" alt="Mask">
         </div>
         <h3>Лучшее качество <span>Еды</span></h3>
-        <p>Качество нашей Еды - отменное!</p>
+        <p>Качество нашей Еды - отменное!
+        </p>
     </div>
-    <div class="intro__block block3">
-        <div>
-            <img src="image/mask.png" alt="mask">
+
+    <div class="intro__block">
+        <div class="block__image">
+            <img src="image/mask.png" alt="Mask">
         </div>
         <h3>Недорогая <span>Еда</span></h3>
         <p>Стоимость нашей Еды зависит только от ее количества. Качество всегда на высоте!</p>
     </div>
+
 </div>
 
 </body>
