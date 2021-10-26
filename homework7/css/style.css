@@ -201,6 +201,10 @@ table {
     text-align: center;
 }
 
+.intro__block span {
+    color: #BC9060;
+}
+
 .block2 p {
     padding: 20px 60px 0;
 }
