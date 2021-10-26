@@ -191,7 +191,6 @@ table {
     display: flex;
     justify-content: center;
     column-gap: 31px;
-    position: relative;
 }
 
 .intro__block {
@@ -201,17 +200,21 @@ table {
     width: 349px;
     height: 328px;
     box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1);
-    font-weight: normal;
     font-size: 26px;
     line-height: 30px;
     text-align: center;
     padding-top: 38px;
     position: relative;
-    top: -50px;
+    top: -75px;
+    background: #fff;
 }
 
 .intro__block p {
-    padding: 20px 20px 0;
+    padding: 20px 40px 0;
+}
+
+.block2 p {
+    padding: 20px 60px 0;
 }
 
 .intro__block span {
