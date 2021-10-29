@@ -85,6 +85,12 @@
         margin-top: 45px;
     }
 
+    .title {
+        font-size: 40px;
+        line-height: 46px;
+        padding: 0 90px;
+    }
+
     .intro {
         flex-direction: column;
         row-gap: 15px;
@@ -114,5 +120,72 @@
 
     .history__images {
         margin-top: 45px;
+    }
+
+    .special__deal__left h2 {
+        font-size: 30px;
+        line-height: 34px;
+        text-align: center;
+        padding: 0 50px;
+        margin-top: 20px;
+    }
+
+    .special__deal__content {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .special__deal__left {
+        padding: 0;
+        font-size: 30px;
+        line-height: 34px;
+        text-align: center;
+    }
+
+    .special__deal__right {
+        margin-top: 40px;
+    }
+
+    .dishes__title {
+        margin: 60px 0;
+    }
+
+    .dishes {
+        flex-direction: column;
+    }
+
+    .dishes.wrapper {
+        padding: 0;
+    }
+
+    .dishes__left {
+        width: 100%;
+    }
+
+    .dishes__left img {
+        width: 100%;
+    }
+
+    .dish__block {
+        row-gap: 85px;
+    }
+
+    .dish__info {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .dish__name {
+        font-size: 22px;
+        line-height: 25px;
+    }
+
+    .price {
+        font-size: 26px;
+        line-height: 30px;
+    }
+
+    .vector {
+        display: none;
     }
 }
