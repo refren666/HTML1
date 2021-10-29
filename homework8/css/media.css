@@ -94,4 +94,25 @@
         font-size: 22px;
         line-height: 25px;
     }
+
+    .history {
+        flex-direction: column;
+    }
+
+    .history__title {
+        padding: 0 70px;
+    }
+
+    .history__info__top p {
+        padding: 0;
+    }
+
+    .history__info__bottom {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .history__images {
+        margin-top: 45px;
+    }
 }

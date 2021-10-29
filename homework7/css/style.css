@@ -201,10 +201,67 @@ table {
     text-align: center;
 }
 
-.intro__block span {
+span {
     color: #BC9060;
 }
 
 .block2 p {
     padding: 20px 60px 0;
 }
+
+.history {
+    display: flex;
+}
+
+.history__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    flex-basis: 50%;
+    margin-right: 125px;
+}
+
+.history__title {
+    font-weight: normal;
+    font-size: 54px;
+    line-height: 62px;
+}
+
+.history__info__top {
+    text-align: center;
+}
+
+.history__info__top p {
+    padding-top: 20px;
+    font-size: 16px;
+    line-height: 22px;
+    color: #656363;
+    flex: 0 1 auto;
+}
+
+.history__info__bottom {
+    display: flex;
+    margin-top: 40px;
+}
+
+.history__info__bottom h3 {
+    font-size: 40px;
+    line-height: 54px;
+    color: #BC9060;
+}
+
+.history__info__bottom p {
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.history__images {
+    flex-basis: 50%;
+}
+
+.images img {
+    width: 100%;
+}
+
+
