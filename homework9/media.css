@@ -1,0 +1,86 @@
+@media screen and (max-width: 992px) {
+    .navbar-nav {
+        display: none;
+    }
+
+    .first__equipment__description p,
+    .second__equipment__description p {
+        padding: 0 20px;
+    }
+
+    .first__equipment__description h1::after,
+    .first__equipment__description p::after {
+        position: relative;
+        margin: 0 auto;
+    }
+
+    .first__equipment__photo {
+        margin-top: 50px;
+    }
+
+    .first__equipment__description h1,
+    .second__equipment__description h2 {
+        text-align: center;
+    }
+
+    .second__equipment__description {
+        margin-bottom: 50px;
+    }
+
+    .modern__standards__description {
+        padding: 40px 30px;
+    }
+
+    .cooling__description h2 {
+        text-align: center;
+    }
+
+    .cooling__description {
+        padding: 0 20px;
+    }
+
+    .advantages__container {
+        row-gap: 0;
+    }
+
+    .advantage__block {
+        margin-bottom: 10px;
+    }
+
+    .visit__also__container {
+        row-gap: 0;
+    }
+
+    .visit__also__block {
+        margin-bottom: 10px;
+    }
+
+    .visit__also {
+        padding: 50px 50px;
+    }
+
+    .footer__title {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .footer__logo {
+        justify-content: center;
+    }
+
+    .footer__text {
+        padding: 0 20px;
+    }
+
+    .footer__bottom {
+        padding: 50px 30px;
+    }
+
+    .footer__nav {
+        margin-bottom: 20px;
+    }
+
+    .footer__nav:last-child {
+        margin-top: -20px;
+    }
+}
